@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Repositorio Digital – Recursos Educativos</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f7fa;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #4a90e2;
+            color: white;
+            text-align: center;
+            padding: 20px 10px;
+        }
+        h1 {
+            margin: 0;
+            font-size: 2em;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 30px auto;
+            padding: 0 20px;
+        }
+        .card {
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+        .card h2 {
+            margin-top: 0;
+            color: #333;
+        }
+        .card p {
+            color: #555;
+        }
+        .btn {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 10px 15px;
+            background-color: #4a90e2;
+            color: white;
+            border-radius: 5px;
+            text-decoration: none;
+        }
+        .btn:hover {
+            background-color: #357ab8;
+        }
+        footer {
+            text-align: center;
+            padding: 15px;
+            background-color: #f0f0f0;
+            color: #333;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Repositorio Digital – Recursos Educativos</h1>
+        <p>Materiales para apoyar el aprendizaje de matemáticas y lenguaje</p>
+    </header>
+
+    <div class="container">
+        <!-- Guías PDF -->
+        <div class="card">
+            <h2>Guías y documentos en PDF</h2>
+            <p>Documentos con explicaciones y ejercicios prácticos para reforzar los contenidos.</p>
+            <a href="pdfs/guias/ejemplo.pdf" class="btn" target="_blank">Ver Guías PDF</a>
+        </div>
+
+        <!-- Videos -->
+        <div class="card">
+            <h2>Videos y recursos audiovisuales</h2>
+            <p>Material visual y sonoro para reforzar los temas vistos en clase.</p>
+            <a href="videos/video1.mp4" class="btn" target="_blank">Ver Videos</a>
+        </div>
+
+        <!-- Simuladores -->
+        <div class="card">
+            <h2>Simuladores interactivos</h2>
+            <p>Aplicaciones digitales como GeoGebra que permiten experimentar conceptos matemáticos.</p>
+            <a href="simuladores/geogebra.html" class="btn" target="_blank">Abrir Simulador</a>
+        </div>
+
+        <!-- Juegos -->
+        <div class="card">
+            <h2>Juegos y actividades de gamificación</h2>
+            <p>Actividades que motivan el aprendizaje de manera dinámica y divertida.</p>
+            <a href="juegos/juego1.html" class="btn" target="_blank">Jugar Ahora</a>
+        </div>
+
+        <!-- Evaluaciones -->
+        <div class="card">
+            <h2>Formatos de evaluación y autoevaluación</h2>
+            <p>Herramientas para medir avances individuales o grupales.</p>
+            <a href="evaluaciones/prueba1.pdf" class="btn" target="_blank">Ver Evaluaciones</a>
+        </div>
+
+        <!-- Banco de guías -->
+        <div class="card">
+            <h2>Banco de guías listas para usar</h2>
+            <p>Material preparado para reemplazar la ausencia de un docente.</p>
+            <a href="banco_guias/guia_respaldo.pdf" class="btn" target="_blank">Descargar Banco de Guías</a>
+        </div>
+
+        <!-- Concurso de matemáticas -->
+        <div class="card">
+            <h2>Materiales del concurso anual de matemáticas</h2>
+            <p>Pruebas, resultados e información histórica de concursos anteriores.</p>
+            <a href="concurso_matematicas/concurso2024.pdf" class="btn" target="_blank">Ver Materiales del Concurso</a>
+        </div>
+    </div>
+
+    <footer>
+        <p>Repositorio Educativo – Todos los derechos reservados © 2025</p>
+    </footer>
+</body>
+</html>
